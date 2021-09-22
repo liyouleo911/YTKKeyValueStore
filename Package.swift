@@ -22,7 +22,6 @@ let package = Package(
         .target(
             name: "YTKKeyValueStore",
             dependencies: ["FMDB"],
-            path: "src",
-            publicHeadersPath: "."),
+            path: "src"),
     ]
 )
